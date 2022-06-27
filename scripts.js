@@ -14,7 +14,7 @@ btns.forEach(function(btn){
     let styles=input.value
 
     if (styles.includes('AC')) {
-        input.value=this.nonce
+        input.value=''
     }
         submit.addEventListener('click', function(){
             input.value=eval(styles);  
